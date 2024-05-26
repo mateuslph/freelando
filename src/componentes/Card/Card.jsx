@@ -1,10 +1,11 @@
 import styled from "@emotion/styled"
 
 const DivEstilizada = styled.div`
-    padding: 32px;
-    border-radius: 16px;
-    border: 1px solid #5754ed;
-    background: #e8eaf9;
+    padding: ${props => props.theme.cores.espacamentos.l};
+    border-radius: ${props => props.theme.cores.espacamentos.s};
+    border: 1px solid;
+    border-color: ${props => props.theme.cores.primarias.a};
+    background: ${props => props.theme.cores.secundarias.a};
 `
 
 export const Card = ({ children }) => {
