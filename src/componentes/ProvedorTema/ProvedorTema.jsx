@@ -27,8 +27,8 @@ const tema = {
         }
     },
     espacamentos: {
-        s : '16px',
-        l : '32px'
+        s: '16px',
+        l: '32px',
     }
 }
 
