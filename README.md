@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Freelancing Project
+
+#### Carried out through the online platform [Alura](https://www.alura.com.br/), of the course: React - desenvolvendo componentes customisados e acessíveis com Emotion.
+
+#### Technologies used:
+* [React](https://react.dev/);
+* [Emotion](https://emotion.sh/docs/introduction);
+* [React-grid-system](https://www.npmjs.com/package/react-grid-system);
+* [NodeJS](https://nodejs.org/en);
+
+### To install it on your computer, follow the following steps:
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
