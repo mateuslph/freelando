@@ -4,6 +4,7 @@ import { Card } from "./componentes/Card/Card";
 import { Estilos } from "./componentes/EstilosGlobais/Estilos";
 import { ProvedorTema } from "./componentes/ProvedorTema/ProvedorTema";
 import { Tipografia } from "./componentes/Tipografia/Tipografia";
+import { Botao } from "./componentes/Botao/Botao";
 
 function App() {
   return (
@@ -19,7 +20,46 @@ function App() {
               <Tipografia variante="body" componente="body">
                 Crie seu perfil gratuitamente para começar a trabalhar com seus melhores freelacers
               </Tipografia>
-              <CampoTexto titulo="Nome Completo" />
+              <Row>
+                <Col lg={12} md={12} sm={12}>
+                  <CampoTexto titulo="Nome Completo" />
+                </Col>
+              </Row>
+              <Row>
+                <Col lg={4} md={4} sm={4}>
+                  <CampoTexto titulo="Estado" />
+                </Col>
+                <Col lg={8} md={8} sm={8}>
+                  <CampoTexto titulo="Cidade" />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <CampoTexto titulo={"e-mail"} />
+                </Col>
+              </Row>
+              <Row>
+                <Col lg={6} md={6} sm={6}>
+                  <CampoTexto titulo="Senha" />
+                </Col>
+                <Col lg={6} md={6} sm={6}>
+                  <CampoTexto titulo="Repita a Senha" />
+                </Col>
+              </Row>
+              <Row>
+                <Col lg={6} md={6} sm={6}>
+                  <Botao variante="secundaria">
+                    Anterior
+                  </Botao>                  
+                </Col>
+                <Col lg={6} md={6} sm={6}>
+                <div style={{ textAlign: 'right' }}>
+                <Botao>
+                    Próximo
+                  </Botao> 
+                </div>                                   
+                </Col>
+              </Row>
             </Card>
           </Col>
         </Row>
