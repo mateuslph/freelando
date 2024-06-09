@@ -1,4 +1,4 @@
-# Freelancing Project
+# Freelando Project
 
 #### Carried out through the online platform [Alura](https://www.alura.com.br/), of the course: React - desenvolvendo componentes customisados e acessíveis com Emotion.
 
