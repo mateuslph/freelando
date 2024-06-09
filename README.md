@@ -2,11 +2,15 @@
 
 #### Carried out through the online platform [Alura](https://www.alura.com.br/), of the course: React - desenvolvendo componentes customisados e acessíveis com Emotion.
 
-#### Technologies used:
+### Technologies used:
 * [React](https://react.dev/);
 * [Emotion](https://emotion.sh/docs/introduction);
 * [React-grid-system](https://www.npmjs.com/package/react-grid-system);
 * [NodeJS](https://nodejs.org/en);
+
+### Below is a screenshot of the project:
+
+![](https://github.com/mateuslph/freelando/blob/main/public/screenshot_freelando.png)
 
 ### To install it on your computer, follow the following steps:
 
