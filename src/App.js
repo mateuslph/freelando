@@ -10,7 +10,7 @@ function App() {
   return (
     <ProvedorTema>
       <Estilos />
-      <Container>
+      <Container style={{ margin: '80px 0' }}>
         <Row justify="center">
           <Col lg={6}>
             <Card>

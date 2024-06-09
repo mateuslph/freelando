@@ -7,7 +7,7 @@ const tema = {
         focus: '#BF00FF',
         primarias: {
             a: '#5754ed',
-            b: '#FF0000',
+            b: '#D30000',
             c: ''
         },
         secundarias: {
@@ -23,7 +23,7 @@ const tema = {
         },
         dark: {
             a: '',
-            b: '#B81515',
+            b: '#BE0404',
             c: '',
             d: '#D456FE'
         }
